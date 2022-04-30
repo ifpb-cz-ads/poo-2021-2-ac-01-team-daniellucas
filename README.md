@@ -1,3 +1,7 @@
+## 1) Explique qual a função da Máquina Virtual Java(JVM).
+
+A JVM tem como função fazer com que a aplicação tenha portabilidade com os diferentes sistemas operacionais, assim, escrevendo apenas uma aplicação na qual irá ser compatível com os sistemas operacionais.
+
 ## 5) Mude o nome do método “main” para “start”, compile e execute. O que aconteceu?
 
 Ocorreu o erro:
