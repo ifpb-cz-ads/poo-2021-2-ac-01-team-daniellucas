@@ -22,3 +22,13 @@ QUESTAO6.java:6: error: class, interface, enum, or record expected
 3 errors
 
 Esse erro ocorre devido ao fato de java ser uma linguagem case sensitive o que quer dizer que letras maiúsculas são diferenciadas das minúsculas.
+
+8) Experimente salvar o arquivo com um nome diferente do nome da classe, compile e execute. O que aconteceu?
+
+Ocorreu o erro:
+Questao6ComNomeDiferente.java:1: error: class Questao6 is public, should be declared in a file named Questao6.java
+public class Questao6
+       ^
+1 error
+
+Erro esse ocorrido porque todos os arquivos java precisam ter o seu nome igual ao nome da classe a qual está neles.
