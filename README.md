@@ -2,6 +2,10 @@
 
 A JVM tem como função fazer com que a aplicação tenha portabilidade com os diferentes sistemas operacionais, assim, escrevendo apenas uma aplicação na qual irá ser compatível com os sistemas operacionais.
 
+## 2) Qual a diferença entre JRE e JDK?
+
+O JRE executa um programa Java e da suporte a bibliotecas padrões do Java, ou seja, ele tem o necessário para rodar o código, enquanto que o JDK tem por funcionalidade o desenvolvimento.
+
 ## 5) Mude o nome do método “main” para “start”, compile e execute. O que aconteceu?
 
 Ocorreu o erro:
