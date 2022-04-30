@@ -6,6 +6,14 @@ A JVM tem como função fazer com que a aplicação tenha portabilidade com os d
 
 O JRE executa um programa Java e da suporte a bibliotecas padrões do Java, ou seja, ele tem o necessário para rodar o código, enquanto que o JDK tem por funcionalidade o desenvolvimento.
 
+## 4) Compile o programa desenvolvido no exercício anterior. A seguir apague o arquivo .class gerado e tente executar o programa. O que aconteceu?
+
+Ocorreu o erro:
+Error: Could not find or load main class Main
+Caused by: java.lang.ClassNotFoundException: Main
+
+Da esse erro devido ao comando java tentar executar o arquivo .class gerado, porém ele foi excluído, logo, não foi encontrado, aí ele não tinha como executar.
+
 ## 5) Mude o nome do método “main” para “start”, compile e execute. O que aconteceu?
 
 Ocorreu o erro:
